@@ -1,0 +1,23 @@
+# Render Blueprint — auto-configures everything when you deploy.
+# When Render sees this file it sets up the web service, a persistent
+# disk (so your team's accounts and progress are never lost), HTTPS,
+# and a strong session secret for you.
+services:
+  - type: web
+    name: growthrocket-academy
+    runtime: node
+    plan: starter            # always-on, ~US$7/month. Required for the data disk below.
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DB_PATH
+        value: /data/data.json
+      - key: JWT_SECRET
+        generateValue: true  # Render generates a strong secret automatically
+    disk:
+      name: gracademy-data
+      mountPath: /data        # the data.json file lives here and survives restarts
+      sizeGB: 1

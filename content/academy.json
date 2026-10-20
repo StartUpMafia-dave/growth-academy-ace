@@ -1,0 +1,1978 @@
+{
+ "version": "2026-10-20",
+ "ranks": [
+  {
+   "id": "rep",
+   "label": "Sales Rep",
+   "book": "The Cadet",
+   "bookKey": "cadet"
+  },
+  {
+   "id": "leader",
+   "label": "Leader",
+   "book": "The Captain",
+   "bookKey": "captain"
+  },
+  {
+   "id": "teamleader",
+   "label": "Team Leader",
+   "book": "The Coach",
+   "bookKey": "coach"
+  },
+  {
+   "id": "exec",
+   "label": "Executive Leader",
+   "book": "The Mentor",
+   "bookKey": "mentor"
+  },
+  {
+   "id": "manager",
+   "label": "Sales Manager",
+   "book": "The Manager",
+   "bookKey": "manager"
+  },
+  {
+   "id": "owner",
+   "label": "Owner",
+   "book": "Growth Academy",
+   "bookKey": null
+  }
+ ],
+ "stages": [
+  {
+   "id": "tenday",
+   "title": "10-Day Program",
+   "book": "The Cadet",
+   "rank": "rep",
+   "desc": "Ten training days, the Day 5 and Day 10 reviews."
+  },
+  {
+   "id": "levelup",
+   "title": "Level Up Day",
+   "book": "The Cadet",
+   "rank": "rep",
+   "review": "levelup",
+   "desc": "Week three — find your one limiting factor and work it."
+  },
+  {
+   "id": "month1",
+   "title": "Month 1 Review",
+   "book": "The Cadet",
+   "rank": "rep",
+   "checklist": "cadet",
+   "desc": "The Four Pillars Checklist — the gateway to The Captain."
+  },
+  {
+   "id": "captain",
+   "title": "Leader — The Captain",
+   "book": "The Captain",
+   "rank": "leader",
+   "review": "newleader",
+   "review2": "performing",
+   "checklist": "captain",
+   "desc": "Learn to train one person."
+  },
+  {
+   "id": "coach",
+   "title": "Team Leader — The Coach",
+   "book": "The Coach",
+   "rank": "teamleader",
+   "review": "coaching",
+   "checklist": "coach",
+   "desc": "Lift people who are already trained."
+  },
+  {
+   "id": "mentor",
+   "title": "Executive Leader — The Mentor",
+   "book": "The Mentor",
+   "rank": "exec",
+   "review": "mentor",
+   "checklist": "mentor",
+   "desc": "Develop a team of leaders."
+  },
+  {
+   "id": "manager",
+   "title": "Sales Manager — The Manager",
+   "book": "The Manager",
+   "rank": "manager",
+   "review": "manager",
+   "checklist": "manager",
+   "desc": "Run a group of leaders."
+  }
+ ],
+ "checklists": {
+  "cadet": {
+   "name": "The Four Pillars Checklist",
+   "note": "End of month one. Score yourself out of ten first; your leader signs once you have done it independently in the field.",
+   "sections": [
+    {
+     "title": "Pillar One — First Impressions",
+     "items": [
+      {
+       "id": "cadet-1",
+       "text": "Read a customer as red, amber or green before speaking, and adjust the approach to match"
+      },
+      {
+       "id": "cadet-2",
+       "text": "Match and mirror pace and body language without it being noticeable"
+      },
+      {
+       "id": "cadet-3",
+       "text": "Hold control with someone resistant at the start, and still get to a presentation"
+      }
+     ]
+    },
+    {
+     "title": "Pillar Two — Communication",
+     "items": [
+      {
+       "id": "cadet-4",
+       "text": "Hold eye contact all the way through the close without dropping it"
+      },
+      {
+       "id": "cadet-5",
+       "text": "Vary volume, pace and inflection deliberately inside one presentation"
+      },
+      {
+       "id": "cadet-6",
+       "text": "Use a pause to create weight instead of filling the silence"
+      }
+     ]
+    },
+    {
+     "title": "Pillar Three — Negotiation",
+     "items": [
+      {
+       "id": "cadet-7",
+       "text": "Use all four closes across a week — at least once each"
+      },
+      {
+       "id": "cadet-8",
+       "text": "Pre-empt a common objection, then handle three others through to a re-close"
+      },
+      {
+       "id": "cadet-9",
+       "text": "Use each of the five influences deliberately in a live pitch"
+      }
+     ]
+    },
+    {
+     "title": "Pillar Four — Mindset",
+     "items": [
+      {
+       "id": "cadet-10",
+       "text": "Hold your attitude after a rejected close and move straight to the next person"
+      },
+      {
+       "id": "cadet-11",
+       "text": "Track your own T&M card for a full week, find your limiting factor from it, and work that one skill"
+      },
+      {
+       "id": "cadet-12",
+       "text": "Explain the 8 successful business habits and say honestly where you're weakest in it"
+      }
+     ]
+    }
+   ],
+   "count": 12
+  },
+  "captain": {
+   "name": "The 4-Week New Leader Challenge",
+   "note": "Complete each milestone, get your mentor to sign off, and aim to complete all 20 within your first 4 weeks of Leadership.",
+   "sections": [
+    {
+     "title": "Milestones",
+     "items": [
+      {
+       "id": "captain-1",
+       "text": "Ring the bell on a solo shift (city)"
+      },
+      {
+       "id": "captain-2",
+       "text": "Hit 8+ sales in a single day"
+      },
+      {
+       "id": "captain-3",
+       "text": "Ring the bell on a Saturday or Sunday shift"
+      },
+      {
+       "id": "captain-4",
+       "text": "Hit a new weekly sales PB"
+      },
+      {
+       "id": "captain-5",
+       "text": "Play “linchpin” role on a business trip"
+      },
+      {
+       "id": "captain-6",
+       "text": "Organise and run a morning topic in Primetime"
+      },
+      {
+       "id": "captain-7",
+       "text": "Submit 1 week's worth of T&M cards"
+      },
+      {
+       "id": "captain-8",
+       "text": "Submit weekly wrap and goals 4 weeks consecutively"
+      },
+      {
+       "id": "captain-9",
+       "text": "1-on-1 SWOT analysis with MD/TM"
+      },
+      {
+       "id": "captain-10",
+       "text": "1-on-1 monthly AUTOP review with mentor"
+      },
+      {
+       "id": "captain-11",
+       "text": "Submit 4-week quadrant goals to MD/TM"
+      },
+      {
+       "id": "captain-12",
+       "text": "Shadow 10-day training plan with mentor"
+      },
+      {
+       "id": "captain-13",
+       "text": "Complete Sales Fundamentals on Growth Academy (inc. notes)"
+      },
+      {
+       "id": "captain-14",
+       "text": "Submit a personal referral"
+      },
+      {
+       "id": "captain-15",
+       "text": "40 sales over a 2-week period"
+      },
+      {
+       "id": "captain-16",
+       "text": "$2,400 retail, 60 memberships and 20 credit cards for the campaign"
+      },
+      {
+       "id": "captain-17",
+       "text": "4-day bell streak in the city"
+      },
+      {
+       "id": "captain-18",
+       "text": "30% CC's and 15 TRPH back-to-back weeks"
+      },
+      {
+       "id": "captain-19",
+       "text": "2 sales after 5pm in the city"
+      },
+      {
+       "id": "captain-20",
+       "text": "Secure a spot on a Wednesday Workshop or Rising Star event"
+      }
+     ]
+    }
+   ],
+   "count": 20
+  },
+  "coach": {
+   "name": "The Coach Checklist",
+   "note": "Your mentor signs each line when it is a habit — not the first time you manage it. Start the two long ones first.",
+   "sections": [
+    {
+     "title": "Part One — Influence",
+     "items": [
+      {
+       "id": "coach-1",
+       "text": "Place yourself honestly on the five levels and review it with your mentor"
+      },
+      {
+       "id": "coach-2",
+       "text": "Name which of the eight gaps is holding you back, and what you're doing about it"
+      }
+     ]
+    },
+    {
+     "title": "Part Two — The Coaching Conversation",
+     "items": [
+      {
+       "id": "coach-3",
+       "text": "Coach the same skill to two people in different matrix zones, using a different approach for each"
+      },
+      {
+       "id": "coach-4",
+       "text": "Set a day up with a goal and a focus for every person — including yours"
+      },
+      {
+       "id": "coach-5",
+       "text": "Close a day off with a full debrief on every person you had out"
+      },
+      {
+       "id": "coach-6",
+       "text": "Run a coaching call under ten minutes that ends on a specific, checkable ask"
+      },
+      {
+       "id": "coach-7",
+       "text": "Design and run a training topic"
+      },
+      {
+       "id": "coach-8",
+       "text": "Complete a 10 day training plan with a new start"
+      }
+     ]
+    },
+    {
+     "title": "Part Three — Diagnosis",
+     "items": [
+      {
+       "id": "coach-9",
+       "text": "Place every person on your team on the matrix, and say what each one needs next"
+      },
+      {
+       "id": "coach-10",
+       "text": "Diagnose two people from their numbers alone, before you speak to them"
+      },
+      {
+       "id": "coach-11",
+       "text": "Plan and submit a training plan for your team"
+      },
+      {
+       "id": "coach-12",
+       "text": "Analyse your weekly KPI and reject report with your mentor"
+      },
+      {
+       "id": "coach-13",
+       "text": "Create a team profile"
+      }
+     ]
+    },
+    {
+     "title": "Part Four — Running The Day",
+     "items": [
+      {
+       "id": "coach-14",
+       "text": "Plan, set up and close off a sales day"
+      },
+      {
+       "id": "coach-15",
+       "text": "Run a shift where you hand over between two people and both finish to their goal"
+      },
+      {
+       "id": "coach-16",
+       "text": "Plan, run and debrief a business trip"
+      },
+      {
+       "id": "coach-17",
+       "text": "Submit and run a team meeting"
+      }
+     ]
+    },
+    {
+     "title": "Part Five — Creating Your Vision",
+     "items": [
+      {
+       "id": "coach-18",
+       "text": "Submit a 12 week business plan"
+      }
+     ]
+    },
+    {
+     "title": "The Two Long Ones — Start These First",
+     "items": [
+      {
+       "id": "coach-19",
+       "text": "Take a new start from their first day through to working independently — and keep them"
+      },
+      {
+       "id": "coach-20",
+       "text": "Have someone you trained take a new start of their own"
+      }
+     ]
+    }
+   ],
+   "count": 20
+  },
+  "mentor": {
+   "name": "The Mentor Checklist",
+   "note": "Eighteen things. Your mentor signs each one when it is a habit. Three take months — start those in week one.",
+   "sections": [
+    {
+     "title": "Part One — The Shift",
+     "items": [
+      {
+       "id": "mentor-1",
+       "text": "Name your two weakest battery habits, and show your mentor what changed over a fortnight"
+      },
+      {
+       "id": "mentor-2",
+       "text": "Go a full week answering questions with questions — then tell your mentor what happened"
+      }
+     ]
+    },
+    {
+     "title": "Part Two — Core People",
+     "items": [
+      {
+       "id": "mentor-3",
+       "text": "Explain the core equation to your mentor using your own family tree"
+      },
+      {
+       "id": "mentor-4",
+       "text": "Score your whole team against the ten markers, revise it a month later, and talk through what changed"
+      },
+      {
+       "id": "mentor-5",
+       "text": "Rate yourself against the standard and review your two lowest with your mentor"
+      }
+     ]
+    },
+    {
+     "title": "Part Three — Developing",
+     "items": [
+      {
+       "id": "mentor-6",
+       "text": "Run the vehicle conversation with someone on your team, start to finish"
+      },
+      {
+       "id": "mentor-7",
+       "text": "Hand a job over using the coaching flywheel — you do it, together, they do it"
+      },
+      {
+       "id": "mentor-8",
+       "text": "Coach one of your leaders on their coaching"
+      },
+      {
+       "id": "mentor-9",
+       "text": "Talk your mentor through a decision you made using best case, worst case, most likely"
+      },
+      {
+       "id": "mentor-10",
+       "text": "Develop a leader on one of your leaders' teams"
+      }
+     ]
+    },
+    {
+     "title": "Part Four — Placement & Rhythm",
+     "items": [
+      {
+       "id": "mentor-11",
+       "text": "Walk your mentor through your placement plan — where the next two leaders go, and who replaces them"
+      },
+      {
+       "id": "mentor-12",
+       "text": "Run a one-on-one with every one of your leaders inside the same month"
+      },
+      {
+       "id": "mentor-13",
+       "text": "Plan and run a leaders' workshop — a real problem, ending in a decision"
+      },
+      {
+       "id": "mentor-14",
+       "text": "Do the weekly family tree pass four weeks straight"
+      },
+      {
+       "id": "mentor-15",
+       "text": "Rate yourself on the symbiotic relationship and compare with your mentor's score"
+      }
+     ]
+    },
+    {
+     "title": "Part Five — The Next Level",
+     "items": [
+      {
+       "id": "mentor-16",
+       "text": "Run your mentor's team meeting"
+      },
+      {
+       "id": "mentor-17",
+       "text": "Complete the impact player self-assessment and compare scores with your mentor"
+      },
+      {
+       "id": "mentor-18",
+       "text": "Hold a team of four leaders for a full month"
+      }
+     ]
+    }
+   ],
+   "count": 18
+  },
+  "manager": {
+   "name": "The Manager Checklist",
+   "note": "Nineteen things. Your mentor signs each one when it is a habit. Four take months — start those first.",
+   "sections": [
+    {
+     "title": "Part One — Running Leaders",
+     "items": [
+      {
+       "id": "manager-1",
+       "text": "Maintain a written personal growth plan and review it with your mentor"
+      },
+      {
+       "id": "manager-2",
+       "text": "Go a full month where your own field days are booked before anything else"
+      }
+     ]
+    },
+    {
+     "title": "Part Two — Rhythm & Culture",
+     "items": [
+      {
+       "id": "manager-3",
+       "text": "Run each tier meeting you're responsible for, anchored to its training book"
+      },
+      {
+       "id": "manager-4",
+       "text": "Deliver an opportunity meeting — the vision and the why behind the goals"
+      },
+      {
+       "id": "manager-5",
+       "text": "Hand a tier meeting over to one of your leaders and debrief them on it"
+      },
+      {
+       "id": "manager-6",
+       "text": "Run your full weekly cadence for four weeks straight without dropping one"
+      },
+      {
+       "id": "manager-7",
+       "text": "Have every leader explain the bonus structure back to you, correctly"
+      }
+     ]
+    },
+    {
+     "title": "Part Three — The Hard Conversations",
+     "items": [
+      {
+       "id": "manager-8",
+       "text": "Run an expectations meeting and document it"
+      },
+      {
+       "id": "manager-9",
+       "text": "Have a critical conversation within a week of the behaviour, not a month"
+      },
+      {
+       "id": "manager-10",
+       "text": "Complete a SWOT and 12 week game plan with a developing leader"
+      },
+      {
+       "id": "manager-11",
+       "text": "Coach one of your leaders through a hard conversation of their own"
+      }
+     ]
+    },
+    {
+     "title": "Part Four — The Family Tree",
+     "items": [
+      {
+       "id": "manager-12",
+       "text": "Map your family tree and identify where the depth gaps are"
+      },
+      {
+       "id": "manager-13",
+       "text": "Talk your mentor through a live placement decision and why you made it"
+      },
+      {
+       "id": "manager-14",
+       "text": "Know your group's average tenure and what's moved it in the last quarter"
+      }
+     ]
+    },
+    {
+     "title": "Part Five — Numbers & The Plan",
+     "items": [
+      {
+       "id": "manager-15",
+       "text": "Present your group scoreboard against benchmarks at a monthly review"
+      },
+      {
+       "id": "manager-16",
+       "text": "Maintain current emerging leader and emerging core lists, revised monthly"
+      },
+      {
+       "id": "manager-17",
+       "text": "Build and submit a 12 week business plan for your group"
+      }
+     ]
+    },
+    {
+     "title": "The Long Ones — Start These First",
+     "items": [
+      {
+       "id": "manager-18",
+       "text": "Develop a second-generation leader — a leader on one of your leaders' teams"
+      },
+      {
+       "id": "manager-19",
+       "text": "Hold a group of four or more leaders for a full quarter"
+      }
+     ]
+    }
+   ],
+   "count": 19
+  }
+ },
+ "reviews": {
+  "levelup": {
+   "title": "Level Up Day Review",
+   "book": "The Cadet",
+   "questions": [
+    {
+     "q": "SEEC is the energy you bring before you say a word. What do the four letters stand for?",
+     "o": [
+      "Smile, Eye Contact, Enthusiasm, Confidence",
+      "Speed, Energy, Engagement, Control",
+      "Smile, Empathy, Excitement, Closing",
+      "Stance, Eyes, Enthusiasm, Cadence"
+     ],
+     "a": 0,
+     "w": "Smile, Eye Contact, Enthusiasm, Confidence — the energy you carry into every interaction before a word is spoken."
+    },
+    {
+     "q": "In Distance Theory, what happens at 3 metres — the Power Zone?",
+     "o": [
+      "Assumptive body language, super confident — this is where the stop happens",
+      "Wave, smile and make eye contact to set the tone early",
+      "Greet them with a hook and keep moving toward them",
+      "Start the FORM questions to warm them up"
+     ],
+     "a": 0,
+     "w": "10m is the wave zone, 6m is the hook (\"Before you run...\"), 3m is the Power Zone (\"Just quickly...\") — where the stop happens."
+    },
+    {
+     "q": "You read a customer as a red light. What is the right approach?",
+     "o": [
+      "Go direct — short responses, straight to the pitch, rapport only after commitment",
+      "Slow down and spend more time on rapport",
+      "Open up with lots of questions and pitch big",
+      "Use jokes to break the ice before you pitch"
+     ],
+     "a": 0,
+     "w": "Red light means cautious and closed. Match their speed, go straight to the pitch and close, and build rapport only after commitment."
+    },
+    {
+     "q": "In the FORM rapport guide, what does the 'M' stand for — and why does it matter?",
+     "o": [
+      "Motivation — it reveals the hot button you tie back to the cause",
+      "Money — it tells you how much to ask for",
+      "Mindset — it shows whether they are a red or green light",
+      "Mood — it tells you when to close"
+     ],
+     "a": 0,
+     "w": "Family, Occupation, Recreation, Motivation. Motivation reveals what the customer values, which is where you find the hot button."
+    },
+    {
+     "q": "ACE is what makes the Law of Averages work. What are the three?",
+     "o": [
+      "Attitude, Consistency, Exposure",
+      "Attitude, Confidence, Energy",
+      "Action, Commitment, Effort",
+      "Awareness, Control, Engagement"
+     ],
+     "a": 0,
+     "w": "Attitude — approach every person as a sale. Consistency — stick to your process. Exposure — see as many people as possible."
+    },
+    {
+     "q": "There are five types of close. Which one is used all the way through the presentation rather than at the commitment?",
+     "o": [
+      "The trial close",
+      "The assumptive close",
+      "The alternative close",
+      "The silent close"
+     ],
+     "a": 0,
+     "w": "The trial close (\"Makes sense, right?\") is used throughout, like a tie-down or yes question. The other four are the closes at the commitment."
+    },
+    {
+     "q": "The five steps of the pitch run Intro, Short Story, Presentation, Commitment… what is the last step?",
+     "o": [
+      "Consolidation — leave the client feeling great about their decision",
+      "Rapport — build a five-minute friend",
+      "Trial close — check they are still with you",
+      "Objection handling — clear any doubts"
+     ],
+     "a": 0,
+     "w": "Intro → Short Story → Presentation → Commitment → Consolidation. Consolidation confirms details, explains what happens next and re-enforces the decision."
+    },
+    {
+     "q": "Sales Influences follow ABOUT. What does the U stand for?",
+     "o": [
+      "Urgency — guiding them decisively toward a clear yes or no",
+      "Understanding — listening for their hot button",
+      "Upselling — moving them to a bigger package",
+      "Usefulness — showing what the product does"
+     ],
+     "a": 0,
+     "w": "Assuredness, Benefits, Opportunity, Urgency, Trends. Urgency does not mean rushing — it means guiding them toward a decision now."
+    },
+    {
+     "q": "A customer raises an objection. Which model do you use?",
+     "o": [
+      "LREC — Listen, Relate, Educate, Close",
+      "GRASP — Get around the right people, Responsibility, Attitude, Systems, Profit",
+      "SEEC — Smile, Eye contact, Enthusiasm, Confidence",
+      "IOPM — Intro, Observe, Practice, Master"
+     ],
+     "a": 0,
+     "w": "Great salespeople do not argue objections — they Listen, Relate, Educate and Close."
+    },
+    {
+     "q": "Your week: 3.2 stops an hour, 72% stops to presentations, 70% presentations to close, 22% close to sale. In your first month, what is your limiting factor?",
+     "o": [
+      "Stops to presentations",
+      "Stops per hour",
+      "Presentations to close",
+      "Close to sale"
+     ],
+     "a": 0,
+     "w": "Read down the funnel. Stops are on the 3+ mark for your first month, so the first metric below benchmark is stops to presentations (80%). Fix that one and everything below it lifts."
+    },
+    {
+     "q": "The Four Pillars Checklist you sign at the end of month one covers which four pillars?",
+     "o": [
+      "First Impressions, Communication, Negotiation, Mindset",
+      "Stops, Presentations, Closes, Sales",
+      "Attitude, Consistency, Exposure, Goals",
+      "Health, Relationships, Business, Finances"
+     ],
+     "a": 0,
+     "w": "First Impressions, Communication, Negotiation and Mindset — three skills each, signed once you have done them independently in the field."
+    },
+    {
+     "q": "Through your first month, 3+ stops an hour is the mark. What becomes the mark from the end of month one?",
+     "o": [
+      "3.5 stops an hour",
+      "3 stops an hour still",
+      "4 stops an hour",
+      "5 stops an hour"
+     ],
+     "a": 0,
+     "w": "Through your first month, 3+ stops an hour is the mark — from the end of month one, 3.5 becomes the new mark."
+    },
+    {
+     "q": "Quality is \"the number behind the numbers\". What two things come out of quality?",
+     "o": [
+      "A long-term customer and a low reject rate",
+      "A higher $ average and more credit cards",
+      "More stops and more presentations",
+      "A faster pitch and more sales per hour"
+     ],
+     "a": 0,
+     "w": "The educated customer stays. If they could not explain it back, it was not a sale — it was a signature."
+    },
+    {
+     "q": "In GRASP, G + R + A + S = Profit. What does the A stand for?",
+     "o": [
+      "Attitude",
+      "Action",
+      "Awareness",
+      "Accountability"
+     ],
+     "a": 0,
+     "w": "Get around the right people, Responsibility, Attitude, Systems = Profit."
+    }
+   ],
+   "pass": 0.75
+  },
+  "newleader": {
+   "title": "Welcome to Leadership Review",
+   "book": "The Captain",
+   "questions": [
+    {
+     "q": "On the 5 Phases of Leadership, Months 2–3 — where a new leader is — is focused on…",
+     "o": [
+      "Learning to manage yourself",
+      "Guide and train new starts",
+      "Lead and coach performance",
+      "Mentor and manage others"
+     ],
+     "a": 0,
+     "w": "Month 1 introduction to sales performance, Months 2–3 learning to manage yourself, Months 3–6 guide and train new starts, Months 6–12 lead and coach performance, Months 12–24 mentor and manage others."
+    },
+    {
+     "q": "Balancing volume and value is about which transition?",
+     "o": [
+      "From personal performance to training performance",
+      "From chasing volume to chasing bigger sales",
+      "From following systems to trusting instinct",
+      "From field work to office work"
+     ],
+     "a": 0,
+     "w": "Your standard becomes the team standard — the shift is from personal performance to training performance."
+    },
+    {
+     "q": "The 10-day training plan follows the IOPM model. What is it?",
+     "o": [
+      "Intro, Observe, Practice, Master",
+      "Introduce, Optimise, Perform, Measure",
+      "Instruct, Observe, Praise, Move on",
+      "Inform, Order, Practise, Manage"
+     ],
+     "a": 0,
+     "w": "Intro → Observe → Practice → Master. New skills are modelled before they are tried."
+    },
+    {
+     "q": "One objective of a training plan is that it…",
+     "o": [
+      "Sets an expectation of speed of learning and holds coach and student accountable",
+      "Guarantees the new start a sale by Day 10",
+      "Removes the need for field training later",
+      "Lets a confident new start skip the reviews"
+     ],
+     "a": 0,
+     "w": "It utilises your network, gives new mentors a framework, and sets the speed of learning while holding both coach and student accountable."
+    },
+    {
+     "q": "When should new information be introduced to a new start?",
+     "o": [
+      "Only outside of field hours — and modelled before they try it",
+      "Whenever a teachable moment appears mid-shift",
+      "During the first pitch of the morning",
+      "At the customer's door, for realism"
+     ],
+     "a": 0,
+     "w": "Only introduce new information outside of field hours, model new skills first, and cater for auditory, visual and kinaesthetic learners."
+    },
+    {
+     "q": "In the 4 Layers of Field Feedback, what does 'Ask Permission' mean?",
+     "o": [
+      "Bring them into the learning before coaching",
+      "Get sign-off from your manager before giving feedback",
+      "Ask the customer before you step in",
+      "Check they want to pitch solo"
+     ],
+     "a": 0,
+     "w": "Laugh / Acknowledge, Ask Permission, Accept Responsibility, Ring the Bell. Ask Permission brings them into the learning before you coach."
+    },
+    {
+     "q": "Across a new start's ten days, what is each week built around?",
+     "o": [
+      "Week one — getting stops. Week two — closing the sale.",
+      "Week one — product knowledge. Week two — the iPad process.",
+      "Week one — closing. Week two — objection handling.",
+      "Week one — goals. Week two — numbers."
+     ],
+     "a": 0,
+     "w": "Days 1–5 are about getting stops, with a review at Day 5. Days 6–10 are about closing the sale, with a sign-off at Day 10, then the Level Up in week three."
+    },
+    {
+     "q": "The coaching cycle in The Captain runs in which order?",
+     "o": [
+      "Deliver the topic → practice run → demonstrate on the field → review → re-enforce",
+      "Demonstrate → deliver the topic → review → practice run",
+      "Review → deliver the topic → re-enforce → demonstrate",
+      "Practice run → review → deliver the topic → demonstrate"
+     ],
+     "a": 0,
+     "w": "Deliver the topic, practise it before the field, demonstrate it on the field, review their performance, then re-enforce the lesson."
+    },
+    {
+     "q": "How many milestones are in the New Leader Challenge, and what is the target?",
+     "o": [
+      "20 milestones, aiming to complete them all within your first 4 weeks",
+      "12 milestones within your first 8 weeks",
+      "20 milestones within your first 8 weeks",
+      "31 milestones within your first 3 months"
+     ],
+     "a": 0,
+     "w": "The 4-Week New Leader Challenge — 20 milestones, each signed off by your mentor."
+    },
+    {
+     "q": "In the New Leader road map, 'Leadership performance review' covers…",
+     "o": [
+      "The AUTOP monthly review and how to monitor team results",
+      "Sitting an HR-style appraisal with the owner",
+      "Reviewing the owner's performance",
+      "Your personal sales average for the quarter"
+     ],
+     "a": 0,
+     "w": "Leadership performance review — the AUTOP monthly review, monitoring team results and current KPIs against benchmark."
+    },
+    {
+     "q": "'Becoming a business partner' in the road map is about…",
+     "o": [
+      "Understanding GRASP and becoming a core member of the team",
+      "Buying into the business financially",
+      "Running your own office within a year",
+      "Recruiting your first new start"
+     ],
+     "a": 0,
+     "w": "Becoming a business partner — understanding GRASP and becoming a core member of the team."
+    },
+    {
+     "q": "Quadrant goals balance four areas. Which four?",
+     "o": [
+      "Health, Relationship, Business, Finance",
+      "Specific, Measurable, Achievable, Realistic",
+      "Stops, Presentations, Closes, Sales",
+      "Daily, Weekly, Monthly, Yearly"
+     ],
+     "a": 0,
+     "w": "Quadrant goals cover health, relationship, business and finance — how you find your why. S.M.A.R.T. is the method, not the quadrants."
+    },
+    {
+     "q": "\"The speed of the leader is…\"",
+     "o": [
+      "…the speed of the team",
+      "…the speed of the sale",
+      "…set by the owner",
+      "…measured in stops per hour"
+     ],
+     "a": 0,
+     "w": "The speed of the leader is the speed of the team. Great leaders make sales fun and look easy."
+    }
+   ],
+   "pass": 0.75
+  },
+  "performing": {
+   "title": "Performing Leader Review",
+   "book": "The Captain",
+   "questions": [
+    {
+     "q": "What triggers the Performing Leader meeting?",
+     "o": [
+      "Consistent results in the field",
+      "A set number of weeks as a leader",
+      "Passing the Welcome to Leadership review",
+      "Recruiting your first new start"
+     ],
+     "a": 0,
+     "w": "It is triggered by consistent field results — you have proven you can perform, so the focus moves to building the momentum of a team."
+    },
+    {
+     "q": "What is a limiting factor?",
+     "o": [
+      "The one KPI holding everything else back",
+      "The KPI you are already best at",
+      "A cap the office sets on each rep",
+      "The weakest person on your team"
+     ],
+     "a": 0,
+     "w": "Fix that one thing and all the others improve. Coaching everything at once leads to confusion, not growth."
+    },
+    {
+     "q": "Running a limiting-factor session, once you find the first metric below benchmark you…",
+     "o": [
+      "Find that topic in the Sales Skills section and run a focused impact before the next field day",
+      "Coach every metric that is below benchmark at once",
+      "Compare them to the best rep in the office",
+      "Wait another week to see if it fixes itself"
+     ],
+     "a": 0,
+     "w": "Open AUTOP, filter the period, compare each KPI to benchmark, find the first one below — that is the constraint — then run a focused impact on it."
+    },
+    {
+     "q": "On the KPI Cheat Sheet, what is the Stops → Presentations benchmark?",
+     "o": [
+      "80%",
+      "75%",
+      "30%",
+      "40%"
+     ],
+     "a": 0,
+     "w": "Stops → Presentations 80%, Presentations → Close 75%, Close → Sale 30%, $ Average $40, CC% 30%."
+    },
+    {
+     "q": "Submit in AUTOP is the #1 daily habit. How long should it take?",
+     "o": [
+      "Less than 15 seconds",
+      "Under 5 minutes",
+      "Around 15 minutes",
+      "Around half an hour"
+     ],
+     "a": 0,
+     "w": "End of day — select campaign, enter numbers, less than 15 seconds. If it is too complicated, your team will not use it."
+    },
+    {
+     "q": "Which of these is NOT one of the reasons people join our business?",
+     "o": [
+      "Job security",
+      "Opportunity",
+      "Belief",
+      "Earning potential"
+     ],
+     "a": 0,
+     "w": "People join for Opportunity, Belief, Relationships, Fun and Earning Potential — knowing which helps you speak to what matters to them from Day 1."
+    },
+    {
+     "q": "Your new start is Under Confident. Best approach?",
+     "o": [
+      "Small targets within each skill, goals around activity not results",
+      "Push them to close the biggest sale they can",
+      "Compare their numbers with the top rep",
+      "Leave them to build it up on their own"
+     ],
+     "a": 0,
+     "w": "Set small targets within each skill, keep it simple, set goals around activity not results, and inspire them with progress over outcomes."
+    },
+    {
+     "q": "Your new start is an Overthinker / Sceptical. Best approach?",
+     "o": [
+      "Learn their long-term motivation, introduce relatable people, and don't over-coach",
+      "Give them lots of new skills quickly",
+      "Focus only on their results",
+      "Direct every move they make tightly"
+     ],
+     "a": 0,
+     "w": "They are often influenced by people rather than position. Show assuredness in the field and about the opportunity."
+    },
+    {
+     "q": "In Situational Leadership, an advanced performer needs which style?",
+     "o": [
+      "Delegating",
+      "Directing",
+      "Coaching",
+      "Supporting"
+     ],
+     "a": 0,
+     "w": "Beginner — Direct. Intermediate — Coaching. Developing — Supporting. Advanced — Delegating."
+    },
+    {
+     "q": "How To Build A Topic has four stages. Which stage do most topics skip?",
+     "o": [
+      "Skill Practice — letting them do it",
+      "Introduction — gaining attention",
+      "Content — the key points",
+      "Applying & Adapting — making it land"
+     ],
+     "a": 0,
+     "w": "Most topics stop after content. Skill practice is the stage that turns information into ability — all four stages, every time."
+    },
+    {
+     "q": "In the end of day debrief, you…",
+     "o": [
+      "Ask how they felt, debrief positives first, then agree one coaching objective",
+      "Read out the numbers and send everyone home",
+      "Start with what went wrong while it is fresh",
+      "Give them a list of everything to fix"
+     ],
+     "a": 0,
+     "w": "Ask how they felt, positives first then challenges, go through paperwork and KPIs, agree one coaching objective, finish on a positive."
+    },
+    {
+     "q": "The skills a new start needs, just out of reach, sit in which zone?",
+     "o": [
+      "The learning zone",
+      "The comfort zone",
+      "The panic zone",
+      "The power zone"
+     ],
+     "a": 0,
+     "w": "Panic zone — anxious and cannot learn. Comfort zone — stopped learning. Learning zone — the skills just out of reach."
+    },
+    {
+     "q": "Taking a new start into the field is…",
+     "o": [
+      "A privilege, not a right — earned by being reliable and consistent in your own sales",
+      "A right once you are promoted to leader",
+      "Allocated by roster to every leader equally",
+      "Something you do once you have ten sales a day"
+     ],
+     "a": 0,
+     "w": "Earning the right: consistent sales performance, a genuine desire to develop others, the right image, and competence explaining the business end to end."
+    }
+   ],
+   "pass": 0.75
+  },
+  "coaching": {
+   "title": "Sales Coaching Review",
+   "book": "The Coach",
+   "questions": [
+    {
+     "q": "On the five levels of leadership, where does The Coach live?",
+     "o": [
+      "Between Level Three (Production) and Level Four (People Development)",
+      "Between Level One (Position) and Level Two (Permission)",
+      "At Level Five (Pinnacle)",
+      "At Level One — the new title"
+     ],
+     "a": 0,
+     "w": "You have proven you can produce. This book is the shift to being measured by what other people produce."
+    },
+    {
+     "q": "Why do most people stop at Level Three — Production?",
+     "o": [
+      "It feels good — the recognition is immediate and the feedback same-day",
+      "The business does not reward developers",
+      "They run out of people to train",
+      "Level Four needs a promotion first"
+     ],
+     "a": 0,
+     "w": "Good leaders build more producers. Great leaders build more leaders. Most stay excellent producers and cap out."
+    },
+    {
+     "q": "Someone says \"I don't feel like doing it.\" Which of the eight gaps are they in?",
+     "o": [
+      "The Inspiration Gap — a habit problem, because the feeling follows the action",
+      "The Knowledge Gap — they need more information",
+      "The Timing Gap — wait for a better week",
+      "The Comparison Gap — they compare themselves to others"
+     ],
+     "a": 0,
+     "w": "You cannot fix an inspiration gap with more information. Work out which gap someone is in before you decide what to do."
+    },
+    {
+     "q": "Captain, don't coach. Before giving feedback, what do you ask yourself?",
+     "o": [
+      "Am I telling here, or showing? Could I show this instead?",
+      "Is this the most important thing to fix today?",
+      "Will they take this well?",
+      "Should my manager say this instead?"
+     ],
+     "a": 0,
+     "w": "People copy what they see far more reliably than they follow what they are told."
+    },
+    {
+     "q": "A great setup leaves every person with which two things?",
+     "o": [
+      "A goal — a number for today — and a focus — one skill",
+      "A site and a start time",
+      "A list of three skills and a target",
+      "A partner and a sales script"
+     ],
+     "a": 0,
+     "w": "A goal and a focus for everyone — including you. Decrease anxiety, increase certainty."
+    },
+    {
+     "q": "Feedback about someone's attitude or effort should be given…",
+     "o": [
+      "In private — never in front of others",
+      "On the spot, while it is fresh",
+      "In the team meeting so everyone learns",
+      "In the group chat"
+     ],
+     "a": 0,
+     "w": "Praise in public, correct in private, and never correct while you are annoyed."
+    },
+    {
+     "q": "In the debrief — wins, misses, future focus — who goes first?",
+     "o": [
+      "They do, on all three — then you add",
+      "You do, so they know what you saw",
+      "The best performer on the team",
+      "Whoever had the worst day"
+     ],
+     "a": 0,
+     "w": "They will usually name the miss themselves, and something they identify sticks in a way something they are told never does."
+    },
+    {
+     "q": "On the Coaching Matrix, which is the biggest zone?",
+     "o": [
+      "Coaching — moderate skill, moderate motivation",
+      "Empowering — high skill, high motivation",
+      "Directing — low skill, low motivation",
+      "Enthusiastic — low skill, high motivation"
+     ],
+     "a": 0,
+     "w": "Most of your team, most of the time. If most of your team is in Directing or Counselling, the problem is not the individuals."
+    },
+    {
+     "q": "A previously strong performer has gone flat — the skill is there, the output has dropped. Which zone?",
+     "o": [
+      "Counselling — investigate, don't coach the skill",
+      "Enthusiastic — tell, show, show, tell",
+      "Directing — specific how, what and when",
+      "Empowering — give them more ownership"
+     ],
+     "a": 0,
+     "w": "High skill, low motivation. Something motivational or attitudinal has shifted — address it early, before it becomes cultural."
+    },
+    {
+     "q": "Someone's sales are low. Where do you look first?",
+     "o": [
+      "Left to right — fix the first broken number, starting with stops",
+      "Their closing technique",
+      "Their $ average",
+      "Their objection handling"
+     ],
+     "a": 0,
+     "w": "A low sales figure is almost never a closing problem. Coaching the close when the stops are down is the most common wasted conversation."
+    },
+    {
+     "q": "Strategic versus tactical coaching:",
+     "o": [
+      "Strategic — how they approach the market and customer. Tactical — selling skills in an actual conversation.",
+      "Strategic — for new starts. Tactical — for leaders.",
+      "Strategic — in the office. Tactical — on the phone.",
+      "Strategic — long sessions. Tactical — short ones."
+     ],
+     "a": 0,
+     "w": "Strategic works away from the moment, in a setup or a drive. Tactical works in the moment and immediately after."
+    },
+    {
+     "q": "When should you NOT reach for coaching?",
+     "o": [
+      "When someone is chronically late or has stopped caring",
+      "When they are new to the job",
+      "When they had a big day yesterday",
+      "When the site is quiet"
+     ],
+     "a": 0,
+     "w": "Coaching does not solve everything. Assess two things — can they do it, and do they want to."
+    },
+    {
+     "q": "The 3/3/3 framework covers which three horizons?",
+     "o": [
+      "3 Years, 3 Months, 3 Weeks",
+      "3 Days, 3 Weeks, 3 Months",
+      "3 Months, 3 Quarters, 3 Years",
+      "3 Hours, 3 Days, 3 Weeks"
+     ],
+     "a": 0,
+     "w": "The big picture, the 12-week map, and daily accountability. People buy into the leader before they buy into the vision."
+    },
+    {
+     "q": "What does GOMO stand for?",
+     "o": [
+      "Going through the motions",
+      "Growth of my output",
+      "Getting on and moving on",
+      "Goals over mindset obstacles"
+     ],
+     "a": 0,
+     "w": "GOMO is stagnation and plateau. Re-assess your goals and re-establish your focus to get your MOJO back."
+    }
+   ],
+   "pass": 0.75
+  },
+  "manager": {
+   "title": "The Manager Review",
+   "book": "The Manager",
+   "questions": [
+    {
+     "q": "At four or more leaders, what replaces holding everyone in your head?",
+     "o": [
+      "Rhythm and structure — meetings that happen on schedule and a tree you can read on paper",
+      "Being available to everyone, all the time",
+      "Solving the hard problems personally",
+      "Informal check-ins whenever you notice something"
+     ],
+     "a": 0,
+     "w": "Being available becomes a bottleneck and solving problems personally stops leaders solving their own. The cadence is the product."
+    },
+    {
+     "q": "What is the signal you have made the shift from very senior mentor to manager?",
+     "o": [
+      "Something goes wrong two levels below you and is solved before you hear about it",
+      "Your own sales stay the highest in the group",
+      "Every problem comes to you first",
+      "You run every morning meeting yourself"
+     ],
+     "a": 0,
+     "w": "Then your leader tells you afterwards, unprompted, what they did and why. Systems run the business — the manager runs the systems."
+    },
+    {
+     "q": "Where should a new person be placed?",
+     "o": [
+      "On a developing leader's team, one at a time — not your strongest leader, and not you",
+      "On your strongest leader, so they are looked after",
+      "On your own team until they are settled",
+      "With whichever leader has the fewest people"
+     ],
+     "a": 0,
+     "w": "Build around your leaders, not through them. You carry more of the coaching early and the split moves toward the leader over the following months."
+    },
+    {
+     "q": "Why does a manager stay in the field?",
+     "o": [
+      "Credibility, first-generation development, and a true read on the group",
+      "Because the group needs their sales to hit target",
+      "Because leaders cannot run a site without them",
+      "Only to cover for people who are away"
+     ],
+     "a": 0,
+     "w": "Once you are out of the field, your picture comes from what you are told and leaders start managing your perception. Book your own field days first."
+    },
+    {
+     "q": "The three layers of meetings answer three questions. Which layer answers \"Who is growing?\"",
+     "o": [
+      "Development — tier meetings, one-on-ones, networking calls",
+      "Daily — Primetime, morning meeting, impact topic",
+      "Direction — opportunity meeting, expectations resets, SWOT",
+      "Monthly — the scoreboard review"
+     ],
+     "a": 0,
+     "w": "Daily: how are we going? Development: who is growing? Direction: where are we going? Development is the most commonly dropped layer."
+    },
+    {
+     "q": "What makes a tier meeting a tier meeting rather than a catch-up?",
+     "o": [
+      "It is anchored to a training book and runs a section of it",
+      "It runs for at least an hour",
+      "Every level attends together",
+      "It is held only when someone is struggling"
+     ],
+     "a": 0,
+     "w": "If a meeting cannot name the section it is running, it is a catch-up with a title. Everyone leaves with one thing, written down, with a date."
+    },
+    {
+     "q": "The opportunity meeting is about…",
+     "o": [
+      "The vision and the why behind the goals — where the organisation is going",
+      "The day's sales target",
+      "Recruitment numbers for the month",
+      "Fixing a drop in results"
+     ],
+     "a": 0,
+     "w": "Run it on a schedule — usually monthly — not when recruitment feels slow, or it reads as a pitch."
+    },
+    {
+     "q": "Culture is best described as…",
+     "o": [
+      "The standards that hold on an ordinary Tuesday when nobody senior is watching",
+      "The team nights and celebrations",
+      "What the owner says at the morning meeting",
+      "The office rules written on the wall"
+     ],
+     "a": 0,
+     "w": "Every standard is set by what gets tolerated rather than what gets said. Standards slip by tolerance, never by decision."
+    },
+    {
+     "q": "People rarely leave because the next step was too hard. They leave because…",
+     "o": [
+      "They couldn't see one, or the one they could see kept moving",
+      "The pay was too low",
+      "Their leader was too strict",
+      "The field was too hard"
+     ],
+     "a": 0,
+     "w": "People don't leave hard next steps — they leave invisible ones. Each book states what its level is for and carries a checklist."
+    },
+    {
+     "q": "A critical conversation should happen…",
+     "o": [
+      "Within a week of the behaviour, not a month",
+      "At the next quarterly review",
+      "Only once it has happened three times",
+      "In front of the team so everyone learns"
+     ],
+     "a": 0,
+     "w": "Have a critical conversation within a week of the behaviour, not a month — and coach your leaders through their own rather than having them for them."
+    },
+    {
+     "q": "A family tree is different from an org chart because it shows…",
+     "o": [
+      "Who developed whom",
+      "Who reports to whom",
+      "Who has the highest sales",
+      "Who has been there longest"
+     ],
+     "a": 0,
+     "w": "A tree with layers is a business — a tree without them is a team with a good salesperson at the top."
+    },
+    {
+     "q": "Why build depth above the promotion criteria?",
+     "o": [
+      "Criteria describe when someone is ready, not when a structure is stable",
+      "Because the criteria are only a guide",
+      "To get promoted faster",
+      "So you can skip the 12 week plan"
+     ],
+     "a": 0,
+     "w": "If the criteria say two, the groups that hold together build three — so a departure leaves you above the line rather than scrambling back to it."
+    },
+    {
+     "q": "Speed to leadership is best understood as…",
+     "o": [
+      "A systems measure — it tests whether your training works end to end",
+      "A measure of one exceptional individual",
+      "How quickly the owner promotes people",
+      "The number of leaders in the office"
+     ],
+     "a": 0,
+     "w": "One leader is a result — a leader's leader is a system."
+    }
+   ],
+   "pass": 0.75
+  },
+  "mentor": {
+   "title": "Mentor Meeting Review",
+   "book": "The Mentor",
+   "questions": [
+    {
+     "q": "The shift from hero to hero maker means you are measured by…",
+     "o": [
+      "What the people around you become",
+      "What you produce personally",
+      "How many people you recruit",
+      "How quickly you solve problems"
+     ],
+     "a": 0,
+     "w": "The hero gets their name on the result. The hero maker gets other people's names on results."
+    },
+    {
+     "q": "Someone you developed starts developing their own people. On Add, Multiply, Exponential, that is…",
+     "o": [
+      "Exponential — it keeps going without you",
+      "Addition — you get better",
+      "Multiplication — everyone you develop lifts",
+      "Production — your results improve"
+     ],
+     "a": 0,
+     "w": "Yourself is addition, others is multiplication, others developing others is exponential."
+    },
+    {
+     "q": "The 80 / 20 shift at Level Four means roughly…",
+     "o": [
+      "80% of your time on other people, 20% on your own productivity",
+      "80% selling, 20% coaching",
+      "80% recruiting, 20% training",
+      "100% developing leaders, no selling"
+     ],
+     "a": 0,
+     "w": "Not a target for next week — the direction of travel."
+    },
+    {
+     "q": "Solving every problem your team brings you is the helpful leader trap. It raises…",
+     "o": [
+      "House cats — loyal, and unable to operate without you",
+      "Strays — independent problem solvers",
+      "Core people ready to lead",
+      "High rollers who out-sell you"
+     ],
+     "a": 0,
+     "w": "Instead of answering, ask: What do you think we should do? Where have you got to? Run me through your thinking."
+    },
+    {
+     "q": "The weekly question for measuring your multiplication is…",
+     "o": [
+      "Who is more capable this week than last week — because of me?",
+      "How many sales did my team make this week?",
+      "Who had the best numbers on my tree?",
+      "How many calls did I take this week?"
+     ],
+     "a": 0,
+     "w": "If you cannot answer it two weeks running, you are managing, not mentoring."
+    },
+    {
+     "q": "Which of these is one of the ten that charge your battery?",
+     "o": [
+      "Be less reachable",
+      "Answer every call straight away",
+      "Work through the weekend",
+      "Cut back on sleep in a big week"
+     ],
+     "a": 0,
+     "w": "Sleep, bedtime, prioritising, a place to work, vices, be less reachable, information diet, walk, journal, diet and exercise."
+    },
+    {
+     "q": "According to the core equation, scale is directly proportional to…",
+     "o": [
+      "Your number of core people",
+      "The hours you put in",
+      "Your personal sales",
+      "How many people you recruit"
+     ],
+     "a": 0,
+     "w": "Your team size is capped by how many people can run part of it without you, not how hard you work."
+    },
+    {
+     "q": "Reliable, good for the room, turns up and gets results — most of a team is made of these. They are…",
+     "o": [
+      "Glue",
+      "Core",
+      "High rollers",
+      "Match winners"
+     ],
+     "a": 0,
+     "w": "Core could run part of your team. High rollers are exceptional in the field. Glue holds the team together — and every team needs them."
+    },
+    {
+     "q": "On the ten markers, there are three responses to feedback. Which is rare?",
+     "o": [
+      "Applies",
+      "Defends",
+      "Accepts",
+      "Argues"
+     ],
+     "a": 0,
+     "w": "Defends, accepts, applies — only the third is rare. Watch what happens in the next two days."
+    },
+    {
+     "q": "The three-step coaching flywheel for handing a job over is…",
+     "o": [
+      "You do it, together, they do it",
+      "Tell, show, test",
+      "They do it, you review, you fix",
+      "Explain, delegate, check"
+     ],
+     "a": 0,
+     "w": "Hand a job over using the coaching flywheel — you do it, together, they do it."
+    },
+    {
+     "q": "Which three checklist items should you start in week one, because they take months?",
+     "o": [
+      "Develop a leader on a leader's team, hold four leaders for a month, score your team and revise a month later",
+      "Run the workshop, the tree pass and one-on-ones",
+      "The vehicle conversation, the placement plan and the battery fortnight",
+      "Both self-assessments and the question week"
+     ],
+     "a": 0,
+     "w": "These need calendar time you cannot compress. Start the slow ones first — everything else will fit around them."
+    },
+    {
+     "q": "At what team size do most teams stall?",
+     "o": [
+      "5 to 8 — stretched, with too many calls",
+      "Up to 4 — when you know everyone",
+      "13 to 16 — managing leaders",
+      "17 to 20+ — second generation"
+     ],
+     "a": 0,
+     "w": "Your first core person has to start carrying people — this is where most teams stall permanently."
+    }
+   ],
+   "pass": 0.75
+  }
+ },
+ "days": [
+  {
+   "day": 1,
+   "title": "First Impressions · SEEC · Distance Theory",
+   "strap": "Today is about your mechanics — how you stop people, how you open, how you set the tone.",
+   "missions": [
+    "Deliver opening line confidently at 3m, 6m and 10m",
+    "SEEC — smile, eye contact, enthusiasm, confidence demonstrated",
+    "Short story delivered under 60 seconds (KISS)",
+    "Hook lines practised: \"Just quickly...\" / \"Before you run...\"",
+    "Body language: offset stance, no crossed arms, forward energy"
+   ],
+   "reflections": [
+    "What did you nail today in your opening?",
+    "What felt awkward — and what will you adjust tomorrow?",
+    "One thing your mentor showed you that you want to copy:"
+   ],
+   "type": "training"
+  },
+  {
+   "day": 2,
+   "title": "Breaking the Ice · Building Rapport · FORM Guide",
+   "strap": "People buy from people they like and trust. Today is about becoming a 5-minute friend.",
+   "missions": [
+    "Use at least one FORM topic naturally in a practice pitch",
+    "Transition smoothly from rapport-building into the presentation",
+    "Demonstrate matching/mirroring body language technique",
+    "Identify difference between warm (green) and cold (red) customer behaviour",
+    "Turn a cold customer warm — move at least one red or amber customer to column B with rapport before you pitch"
+   ],
+   "reflections": [
+    "What FORM topic worked best to open up a conversation today?",
+    "What's the difference you noticed between a warm and a cold customer?",
+    "How is your confidence changing from Day 1 to today?"
+   ],
+   "type": "training"
+  },
+  {
+   "day": 3,
+   "title": "Excitement Curve · Buying Signs · Calendar Close",
+   "strap": "Today you start reading customers and building toward your first close attempt.",
+   "missions": [
+    "Complete a full pitch through to calendar close without reading notes",
+    "Identify at least 3 buying signs during a practice role-play",
+    "Use assumptive close naturally: \"I'll grab your name to get that started\"",
+    "Use alternative close: \"Did you want to do X like most people or go with Y?\"",
+    "Demonstrate timing — close at the peak of excitement, not too early or late"
+   ],
+   "reflections": [
+    "Describe a moment when a customer gave a clear buying sign — what did you do?",
+    "Did you attempt a close today? What happened?",
+    "What's one thing you'll do differently in your pitch structure tomorrow?"
+   ],
+   "type": "training"
+  },
+  {
+   "day": 4,
+   "title": "Law of Averages · ACE Principle",
+   "strap": "Every no brings you closer to a yes. Today you learn the mindset that makes the numbers work.",
+   "missions": [
+    "Explain the Law of Averages in your own words to a partner",
+    "Describe all 3 ACE principles with an example for each",
+    "Identify what type of day you were having in the field today",
+    "Independent T&M card completed — tracked your own stops/presentations",
+    "Maintained attitude after a rejected close — moved straight to next person"
+   ],
+   "reflections": [
+    "How did your attitude hold up when the rejections came? What helped?",
+    "What part of ACE do you need to work on most — and why?",
+    "What type of day did you have — and how did you respond to it?"
+   ],
+   "type": "training"
+  },
+  {
+   "day": 5,
+   "title": "iPad Process · Consolidation · After-Sales Care",
+   "strap": "The iPad is not the finish line — it's the starting gun. Today you own the full process.",
+   "missions": [
+    "Run through the iPad process start-to-finish without hesitation",
+    "Explain to a partner why after-sales care protects quality",
+    "Demonstrate how to ask for a credit card naturally and confidently",
+    "Deliver post-sign-up reassurance — leave customer feeling great"
+   ],
+   "reflections": [
+    "What is the single biggest thing you've improved at this week?",
+    "What's still your biggest weakness going into Week 2?",
+    "Your #1 goal for Week 2:"
+   ],
+   "type": "training"
+  },
+  {
+   "day": 6,
+   "title": "8 Successful Business Habits",
+   "strap": "What you do every single day compounds. These 8 habits are the difference between average and elite.",
+   "missions": [
+    "Name all 8 habits from memory without looking at notes",
+    "Explain GRASP principle with an example for each letter",
+    "Set effort-based milestone for today — PB before 12pm",
+    "Profile your own work habits with mentor — honest self-assessment",
+    "T&M card completed and submitted"
+   ],
+   "reflections": [
+    "Which of the 8 habits showed up most strongly in your day today?",
+    "What habit do you need to build a system around this week?",
+    "What was your biggest win today — and what drove it?"
+   ],
+   "type": "training"
+  },
+  {
+   "day": 7,
+   "title": "Sales Influences — The 5 Persuasion Tools",
+   "strap": "These are the levers that move people. Master them and your close rate changes permanently.",
+   "missions": [
+    "Name all 5 influences: Assuredness, Benefits, Opportunity, Urgency, Trends",
+    "Use Urgency language naturally in a practice close",
+    "Use a Trends statement (\"most people in this area are...\") convincingly",
+    "Identify which influence your mentor uses most — discuss why",
+    "Spot 3 sales influences used in the field today"
+   ],
+   "reflections": [
+    "Which sales influence had the biggest impact in your pitch today?",
+    "What did you notice about how your mentor uses influences differently to you?",
+    "What's one influence you want to use more boldly tomorrow?"
+   ],
+   "type": "training"
+  },
+  {
+   "day": 8,
+   "title": "FAQs · Objection Handling Model",
+   "strap": "Objections aren't obstacles — they're opportunities. Today you learn to love them.",
+   "missions": [
+    "Handle \"I give to other charities\" — pre-empt and close",
+    "Handle \"I can't afford it\" — empathise, explain minimums, close",
+    "Handle \"I need to talk to my partner\" — use steps correctly",
+    "Handle \"I won't give my details\" — stay relaxed, build trust, close",
+    "Handle \"Can I just do a one-off donation?\" — explain ongoing benefits, close"
+   ],
+   "reflections": [
+    "Which objection was hardest to handle today — and what will you do differently?",
+    "Write down one objection script you want to memorise:",
+    "How did reframing objections as opportunities change your energy today?"
+   ],
+   "type": "training"
+  },
+  {
+   "day": 9,
+   "title": "Quadrant Goals · SMART Framework",
+   "strap": "If you aim at nothing, you'll hit it every time. Today you get clear on what you're working for.",
+   "missions": [
+    "Track your stops per hour against your leader's today — stay within reach",
+    "Compare your conversions with your leader at the end-of-day debrief",
+    "Pick the one KPI gap between you and your leader to attack tomorrow"
+   ],
+   "reflections": [
+    "What is the \"why\" behind your #1 goal? Write your 3 reasons:",
+    "How does having a clear goal change how you approach tomorrow?"
+   ],
+   "type": "training",
+   "goal_draft": [
+    "Business Goal (3 months)",
+    "Financial Goal (3 months)",
+    "Relationship / Health Goal (3 months)",
+    "Your #1 \"First Domino\" goal:"
+   ]
+  },
+  {
+   "day": 10,
+   "title": "Performance Review · KPI Debrief · Trajectory",
+   "strap": "You've done the 10 days. Today is about knowing your numbers, celebrating progress and planning ahead.",
+   "missions": [],
+   "reflections": [
+    "What are your key learnings from the 10 days?",
+    "Where did you make your biggest improvements?",
+    "Main focus area moving into Phase 2:",
+    "Why Leadership? Where Am I Headed Next? — Explain in your own words why you want to progress and what Phase 2 means to you:"
+   ],
+   "type": "training"
+  }
+ ],
+ "dayReviews": {
+  "day5": {
+   "title": "Day 5 Review — End of Week 1",
+   "scope": "training days 1–5",
+   "reflections": [
+    "What is the single biggest thing you've improved at this week?",
+    "What's still your biggest weakness going into Week 2?",
+    "Your #1 goal for Week 2:"
+   ]
+  },
+  "day10": {
+   "title": "Day 10 Review — Performance Review · KPI Debrief · Trajectory",
+   "scope": "training days 6–10 plus 10-day totals",
+   "reflections": [
+    "What are your key learnings from the 10 days?",
+    "Where did you make your biggest improvements?",
+    "Main focus area moving into Phase 2:",
+    "Why Leadership? Where Am I Headed Next? — Explain in your own words why you want to progress and what Phase 2 means to you:"
+   ],
+   "pbs": [
+    "Daily Sales PB",
+    "RPH PB"
+   ]
+  }
+ },
+ "objectionsPrompt": "Record any objections you couldn't work around.",
+ "objections": [
+  "I give to other charities",
+  "I can't afford it",
+  "I need to talk to my partner",
+  "I won't give my details",
+  "Can I just do a one-off donation?"
+ ],
+ "cheatSheet": {
+  "funnel_order": [
+   "stopsPerHour",
+   "presPct",
+   "closePct",
+   "convPct",
+   "retailAvg",
+   "ccPct"
+  ],
+  "rule": "Read down the funnel. The first metric sitting below benchmark is your limiting factor — fix that one and everything below it lifts with it. Fix three at once and you fix nothing.",
+  "rows": [
+   {
+    "metric": "stopsPerHour",
+    "label": "Stops per hour",
+    "benchmark": "3+ (3.5 from end of month one)",
+    "skills": [
+     "SEEC",
+     "Distance theory",
+     "ACE — attitude and work ethic on site"
+    ]
+   },
+   {
+    "metric": "presPct",
+    "label": "Stops → Presentations",
+    "benchmark": "80%",
+    "skills": [
+     "Taking control",
+     "Matching & mirroring",
+     "Not pre-judging stops",
+     "Balancing rapport"
+    ]
+   },
+   {
+    "metric": "closePct",
+    "label": "Presentations → Close",
+    "benchmark": "75%",
+    "skills": [
+     "Product knowledge",
+     "YES questions",
+     "Highlighting benefits",
+     "Micro objections",
+     "Weak calendar pitch"
+    ]
+   },
+   {
+    "metric": "convPct",
+    "label": "Close → Sale",
+    "benchmark": "30%",
+    "skills": [
+     "Buying signs",
+     "Trial closing",
+     "Excitement curve",
+     "Assumptive iPad",
+     "Objection handling"
+    ]
+   },
+   {
+    "metric": "retailAvg",
+    "label": "$ Average",
+    "benchmark": "$40",
+    "skills": [
+     "Confidence pitching bigger",
+     "Don't suggest low"
+    ]
+   },
+   {
+    "metric": "ccPct",
+    "label": "Credit Card %",
+    "benchmark": "30%",
+    "skills": [
+     "Right customers",
+     "Benefits of CC",
+     "Control on the iPad"
+    ]
+   }
+  ]
+ },
+ "lights": {
+  "stopsPerHour": {
+   "green": 3.5,
+   "amberMin": 2.5,
+   "greenMonthOne": 3
+  },
+  "presPct": {
+   "green": 0.8,
+   "amberMin": 0.7
+  },
+  "closePct": {
+   "green": 0.75,
+   "amberMin": 0.65
+  },
+  "convPct": {
+   "green": 0.3,
+   "amberMin": 0.2
+  },
+  "retailAvg": {
+   "green": 40,
+   "amberMin": 35
+  },
+  "rph": {
+   "green": 12.5,
+   "amberMin": 10
+  },
+  "ccPct": {
+   "green": 0.3,
+   "amberMin": 0.2
+  }
+ },
+ "month1": {
+  "learning": [
+   "What are your key learnings from Month 1?",
+   "Where did you make the biggest improvements?",
+   "What goals did you achieve?",
+   "What is your main focus heading into Month 2?",
+   "Did you help someone in their first 10 days?",
+   "Your savings target for Month 2:"
+  ],
+  "whyLeadership": [
+   "Why do you want to become a sales leader?",
+   "What does your life look like in 12 months if you progress?",
+   "What kind of leader do you want to be?",
+   "What is your biggest personal barrier to getting there?"
+  ]
+ },
+ "skills": [
+  {
+   "h": "Stopping Mechanics",
+   "items": [
+    {
+     "k": "sk-dist",
+     "t": "Distance Theory"
+    },
+    {
+     "k": "sk-seec",
+     "t": "S/E/E/C"
+    },
+    {
+     "k": "sk-hook",
+     "t": "Hook Lines"
+    },
+    {
+     "k": "sk-rapport",
+     "t": "Rapport"
+    },
+    {
+     "k": "sk-control",
+     "t": "Control"
+    }
+   ]
+  },
+  {
+   "h": "Pitch Execution",
+   "items": [
+    {
+     "k": "sk-pk",
+     "t": "Product Knowledge"
+    },
+    {
+     "k": "sk-cadence",
+     "t": "Cadence"
+    },
+    {
+     "k": "sk-tonality",
+     "t": "Tonality shifts"
+    },
+    {
+     "k": "sk-pausing",
+     "t": "Pausing"
+    },
+    {
+     "k": "sk-engage",
+     "t": "Engagement"
+    }
+   ]
+  },
+  {
+   "h": "Mentality",
+   "items": [
+    {
+     "k": "sk-loa",
+     "t": "Law Of Averages"
+    },
+    {
+     "k": "sk-ace",
+     "t": "ACE Principle"
+    },
+    {
+     "k": "sk-habits",
+     "t": "8 Successful Habits"
+    },
+    {
+     "k": "sk-goals",
+     "t": "Goal setting"
+    }
+   ]
+  },
+  {
+   "h": "Sales Mechanics",
+   "items": [
+    {
+     "k": "sk-curve",
+     "t": "Excitement Curve"
+    },
+    {
+     "k": "sk-loq",
+     "t": "Line Of Questioning"
+    },
+    {
+     "k": "sk-infl",
+     "t": "Sales Influences"
+    },
+    {
+     "k": "sk-obj",
+     "t": "Objection Handling"
+    },
+    {
+     "k": "sk-disc",
+     "t": "Types of closes"
+    }
+   ]
+  },
+  {
+   "h": "Quality & Reporting",
+   "items": [
+    {
+     "k": "sk-kpiday",
+     "t": "Daily KPI's"
+    },
+    {
+     "k": "sk-ipad",
+     "t": "iPad process"
+    },
+    {
+     "k": "sk-clarity",
+     "t": "Customer clarity"
+    },
+    {
+     "k": "sk-aftercare",
+     "t": "After-sales care"
+    },
+    {
+     "k": "sk-weekly",
+     "t": "Weekly reflection"
+    }
+   ]
+  }
+ ]
+}

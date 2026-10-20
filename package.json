@@ -1,0 +1,15 @@
+{
+  "name": "growth-academy-ace",
+  "version": "2.0.0",
+  "description": "Growth Academy — Ace, the training companion",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": { "start": "node server.js", "test": "node test.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
